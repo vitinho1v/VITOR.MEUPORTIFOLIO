@@ -1,0 +1,226 @@
+/* Importando fonte moderna do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 15px 30px;
+  border-bottom: 2px solid #00ffff33;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav div:first-child {
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #00ffff;
+}
+
+nav a {
+  color: #ffffff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+section {
+  padding: 60px 0;
+  border-bottom: 1px solid #00ffff44;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  background: linear-gradient(to right, #141e30, #243b55);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.home h2 {
+  font-size: 2.5em;
+  color: #00ffff;
+}
+
+.nome {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #00ffff;
+  color: #000;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #fff;
+  color: #007bff;
+  transform: scale(1.05);
+}
+
+#sobre, #habilidades, #trabalho {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 8000px;
+  min-height: 100vh;
+border-radius: 20px;
+margin-top: 20px;
+
+}
+
+#contato {
+  background-color: #1f2c3a;
+  border-radius: 12px;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+#contato h2 {
+  color: #00ffff;
+}
+
+#cnt {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contato p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+#registro form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+#registro input,
+#registro textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+}
+
+#registro button {
+  padding: 12px;
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  font-size: 1em;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#registro button:hover {
+  background-color: #00cccc;
+}
+
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav div {
+    margin: 10px 0;
+  }
+
+  .home h2 {
+    font-size: 2em;
+  }
+
+  .nome {
+    font-size: 1.5em;
+  }
+
+  #registro form {
+    width: 100%;
+  }
+}
+img{
+  width: 200px;
+}
+.bloco-habilidade{
+width: 200px;
+background-color: rgba(255, 255, 255, 0.349);
+margin: 40px;
+border-radius: 20px;
+border: solid;
+text-align: center;
+}
+.conteiner-habilidades{
+  display: flex;
+}
+#habilidades{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.interface{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 80vh;
+
+}
+.trb{
+
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 100vh;
+}
+.git{
+
+  
+}
